@@ -1,1 +1,9 @@
 silueta,modelo,descripcion_corta,descripcion_larga,precio,url_imagen,urls_galeria,color,n_pares_talla_22,n_pares_talla_23,n_pares_talla_24,n_pares_talla_25,n_pares_talla_26,n_pares_talla_27,n_pares_talla_28,n_pares_talla_29,etiquetas
+CLASICO,LISO,,,1200,media/modelos/cla_lis_bla,,blanco,,,,,,,,,
+CLASICO,LISO,,,1200,media/modelos/cla_lis_neg,,negro,,,,,,,,,
+CLASICO,TREBOL,,,1200,media/modelos/cla_tre_bla,,blanco,,,,,,,,,
+CLASICO,TREBOL,,,1200,media/modelos/cla_tre_neg,,negro,,,,,,,,,
+CLASICO,AVE,,,1200,media/modelos/cla_ave_bla,,blanco,,,,,,,,,
+CLASICO,AVE,,,1200,media/modelos/cla_ave_neg,,negro,,,,,,,,,
+SAMBA,LISO,,,1300,media/modelos/sam_lis_caf,,café,,,,,,,,,
+SAMBA,LISO,,,1300,media/modelos/sam_lis_neg,,negro,,,,,,,,,

@@ -483,3 +483,68 @@ html, body {
         max-width: min(86vw,120vh);
     }
 }
+
+/* --- NUEVO CÓDIGO PARA EL FOOTER --- */
+#main-footer {
+    background: #181818;
+    color: #f2f2f2;
+    padding: 6vh 0 3vh 0;
+    text-align: center;
+    font-size: 1.1rem;
+    margin-top: 6vh;
+    border-top: 1.5px solid rgba(215,176,88,0.18);
+}
+
+.footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4vw 3vh;
+    margin-bottom: 3vh;
+}
+
+.footer-links a {
+    color: #d7b058;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.1em;
+    transition: color 0.2s;
+    padding: 0.5vh 1vw;
+    border-radius: 0.5vw;
+}
+
+.footer-links a:hover {
+    color: #fff;
+    background: #d7b05822;
+}
+
+.footer-social {
+    display: none;
+    justify-content: center;
+    gap: 3vw;
+    margin-bottom: 2vh;
+    font-size: 2.5em;
+}
+
+.footer-social a {
+    color: #d7b058;
+    transition: color 0.2s, transform 0.2s;
+}
+
+.footer-social a:hover {
+    color: #fff;
+    transform: scale(1.15);
+}
+
+.footer-copy {
+    font-size: 0.95em;
+    color: #888;
+    margin-top: 2vh;
+}
+
+/* Solo muestra redes en desktop */
+@media (min-aspect-ratio: 9/16.01) {
+    .footer-social {
+        display: flex;
+    }
+}
