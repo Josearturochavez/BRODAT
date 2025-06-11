@@ -1,5 +1,5 @@
 // Lee el archivo INVENTARIO.csv y genera las cartas de producto dinámicamente
-fetch('INVENTARIO.csv')
+fetch('/INVENTARIO.csv')
   .then(res => res.text())
   .then(csv => {
     const lines = csv.split('\n').filter(line => line.trim() && !line.startsWith('//'));
@@ -48,7 +48,7 @@ fetch('INVENTARIO.csv')
       }
       // Envolver la imagen en un <a> con el id del producto (idx+1 para que empiece en 1)
       card.innerHTML = `
-        <a href="producto.html?id=${idx+1}"><img src="${producto.url_imagen}" alt="${nombreCompleto}">
+        <a href="/producto/?id=${idx+1}"><img src="${producto.url_imagen}" alt="${nombreCompleto}">
         <h2>${nombreCompleto}</h2></a>
         <div class="colores-producto">${coloresHTML}</div>
         <p>Precio: $${producto.precio} MXN</p>

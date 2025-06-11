@@ -10,8 +10,8 @@ function includeHTML(id, url) {
         });
 }
 
-includeHTML('header-placeholder', 'header.html');
-includeHTML('footer-placeholder', 'footer.html');
+includeHTML('header-placeholder', '/header.html');
+includeHTML('footer-placeholder', '/footer.html');
 
 function menuInit() {
     const menuButton = document.getElementById('menu-button');

@@ -141,7 +141,7 @@ function renderProducto(producto, productos) {
     }
 }
 
-fetch('INVENTARIO.csv')
+fetch('/INVENTARIO.csv')
   .then(res => res.text())
   .then(csv => {
     const productos = parseCSV(csv);

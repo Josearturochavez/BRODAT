@@ -1,9 +1,9 @@
 silueta,modelo,color,descripcion_corta,descripcion_larga,precio,url_imagen,urls_galeria,n_pares_talla_22,n_pares_talla_23,n_pares_talla_24,n_pares_talla_25,n_pares_talla_26,n_pares_talla_27,n_pares_talla_28,n_pares_talla_29,m_forro,m_corte,visible
-CLASICO,LISO,blanco,,,1200,media/modelos/cla-lis-bla.png,,1,1,1,1,0,3,3,1,,,1
-CLASICO,LISO,negro,,,1200,media/modelos/cla-lis-neg.png,,1,1,1,2,3,3,2,1,,,1
-CLASICO,TREBOL,blanco,,,1200,media/modelos/cla-tre-bla.png,,1,2,1,2,1,3,2,1,,,1
-CLASICO,TREBOL,negro,,,1200,media/modelos/cla-tre-neg.png,,1,1,1,2,2,3,2,1,,,1
-CLASICO,AVE,blanco,,,1200,media/modelos/cla-ave-bla.png,,1,1,0,1,2,8,3,2,,,1
-CLASICO,AVE,negro,,,1200,media/modelos/cla-ave-neg.png,,1,1,1,2,1,3,2,1,,,1
-SAMBA,LISO,café,,,1300,media/modelos/sam-lis-caf.png,,0,0,0,0,0,0,0,0,,,0
-SAMBA,LISO,negro,,,1300,media/modelos/sam-lis-neg.png,,0,0,0,0,0,0,0,0,,,0
+CLASICO,LISO,blanco,,,1200,/media/modelos/cla-lis-bla.png,,1,1,1,1,0,3,3,1,,,1
+CLASICO,LISO,negro,,,1200,/media/modelos/cla-lis-neg.png,,1,1,1,2,3,3,2,1,,,1
+CLASICO,TREBOL,blanco,,,1200,/media/modelos/cla-tre-bla.png,,1,2,1,2,1,3,2,1,,,1
+CLASICO,TREBOL,negro,,,1200,/media/modelos/cla-tre-neg.png,,1,1,1,2,2,3,2,1,,,1
+CLASICO,AVE,blanco,,,1200,/media/modelos/cla-ave-bla.png,,1,1,0,1,2,8,3,2,,,1
+CLASICO,AVE,negro,,,1200,/media/modelos/cla-ave-neg.png,,1,1,1,2,1,3,2,1,,,1
+SAMBA,LISO,café,,,1300,/media/modelos/sam-lis-caf.png,,0,0,0,0,0,0,0,0,,,0
+SAMBA,LISO,negro,,,1300,/media/modelos/sam-lis-neg.png,,0,0,0,0,0,0,0,0,,,0
